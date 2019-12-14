@@ -4,18 +4,18 @@ This site allows a user to create a sales record in the database into the requir
 
 
 ## Adding a Sales cart item 
-![](sales-one.png)
+![](sales-one.PNG)
 - User selects a category
 - User selects a product from that category, adds quantity, and presses add button to add to cart.
 
 ## Completing Sale
-![](sales-two.png)
+![](sales-two.PNG)
  - User clicks process sale
  - Code-behind goes through the GridView gathering all required data and creates a new invoice and invoice details record. The quantity on-hand in the products table is adjusted to reflect the new amount on hand.
 
  ## Refund 
 
- ![](sales-three.png)
+ ![](sales-three.PNG)
 
  - User looks up original invoice ID.
  - System populates GridView with details.
